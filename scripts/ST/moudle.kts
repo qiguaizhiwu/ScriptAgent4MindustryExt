@@ -1,6 +1,5 @@
 @file:Depends("coreMindustry")
 @file:Import("com.google.guava:guava:30.1-jre", mavenDepends = true)
-@file:Import("Dim.lib.*", defaultImport = true)
 @file:Depends("coreLibrary")
 @file:Import("arc.Core", libraryByClass = true)
 @file:Import("mindustry.Vars", libraryByClass = true)
