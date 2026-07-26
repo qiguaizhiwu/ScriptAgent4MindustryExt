@@ -1,6 +1,7 @@
 @file:Depends("coreMindustry")
 @file:Import("com.google.guava:guava:30.1-jre", mavenDepends = true)
 @file:Depends("coreLibrary")
+@file:Import("wayzer.lib.*", defaultImport = true)
 @file:Import("arc.Core", libraryByClass = true)
 @file:Import("mindustry.Vars", libraryByClass = true)
 @file:Import("arc.Core", defaultImport = true)
