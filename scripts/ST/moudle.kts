@@ -18,8 +18,3 @@ import mindustry.net.Packets
 import mindustry.net.Packets.ConnectPacket
 
 name = "ST Mindustry Plugin"
-
-Listener//ensure init
-onEnable {
-    RootCommands.hookGameHandler()
-}
