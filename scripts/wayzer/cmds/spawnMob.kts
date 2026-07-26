@@ -181,8 +181,7 @@ command("spawns", "打开新召唤单位菜单") {
             val selTeam = cache.team
             if (selUnit != null && selTeam != null) {
                 val input = getInput("输入消息", "[yellow]请输入召唤数量(1-100)".with())
-                val input = input.toIntOrNull()?.coerceIn(1, 100)
-                if (input != null) {
+                if (input = toIntOrNull()?.coerceIn(1, 100)) {
                     spawnUnits(p, selUnit, selTeam, input)
                 } else {
                     p.sendMessage("[red]无效数字，召唤取消".with())
