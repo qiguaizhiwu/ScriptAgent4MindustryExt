@@ -52,8 +52,3 @@ jobs:
 
       - name: Build release artifacts
         run: ./gradlew buildPlugin precompileZip allInOneJar
-
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
-        with:
-          prerelease: true
