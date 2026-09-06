@@ -57,8 +57,3 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           prerelease: true
-          name: ${{ github.ref_name }}
-          body: ${{ steps.changelog.outputs.releaseBody }}
-          files: |
-            build/distributions/*
-            build/libs/*
